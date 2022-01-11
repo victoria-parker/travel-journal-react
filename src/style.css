@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Inter', sans-serif;
+    color: #2B283A;
 }
 .NavBar{
     height: 55px;
@@ -16,4 +17,57 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.cards{
+    width: 471px;
+    margin: auto;
+}
+.card{
+    width: 471px;
+    height: 168px;
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin-top: 36px;
+}
+.card .card-image img{
+    width: 125px; 
+    height:168px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card .location .location-place{
+    text-transform:uppercase;
+    letter-spacing: 0.17em;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-right: 12px;
+}
+.card .location .location-place .icon{
+    color:#F55A5A;
+    margin-right: 4px;
+}
+.card .location .location-maps a{
+    color: #918E9B;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+.card .title{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 4px;
+}
+.card .dates{
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+.card .description{
+    margin-top:9px;
+    font-size: 10.24px;
+    line-height: 15px;
+    width: 326px;
 }
