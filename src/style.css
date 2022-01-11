@@ -8,6 +8,7 @@
 body{
     font-family: 'Inter', sans-serif;
     color: #2B283A;
+    padding-bottom: 36px;
 }
 .NavBar{
     height: 55px;
